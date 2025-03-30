@@ -1,10 +1,9 @@
 import { cert, getApps, initializeApp } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore } from "firebase-admin/firestore"; // ✅ FIXED
 
 const initFirebaseAdmin = () => {
-  const apps = getApps();
-  if (!apps.length) {
+  if (!getApps().length) {
     initializeApp({
       credential: cert({
         projectId: process.env.FIREBASE_PROJECT_ID,
@@ -16,7 +15,7 @@ const initFirebaseAdmin = () => {
 
   return {
     auth: getAuth(),
-    db: getFirestore(),
+    db: getFirestore(), // ✅ FIXED
   };
 };
 
