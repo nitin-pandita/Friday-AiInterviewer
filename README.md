@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1>Friday AI Interviewer</h1>
 
-## Getting Started
+Friday AI Interviewer is a web application designed to assist users in preparing for job interviews by simulating realistic interview scenarios using artificial intelligence. Leveraging the capabilities of GPT-4, it provides users with a dynamic and interactive platform to practice and enhance their interview skills.
 
-First, run the development server:
+Features
 
-```bash
+🧑‍💻 Interactive AI-Powered Interviews: Engage in simulated interviews with AI-generated questions tailored to various job roles and industries.
+
+✅ Real-Time Feedback: Receive instant feedback on your responses to help identify strengths and areas for improvement.
+
+🎯 Customizable Scenarios: Select from a range of interview scenarios to match your specific preparation needs.
+
+🖥️ User-Friendly Interface: Navigate through the application with ease, thanks to its intuitive design.
+
+🚀 Getting Started
+
+To set up and run the Friday AI Interviewer locally on your machine, follow these steps:
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/nitin-pandita/Friday-AiInterviewer.git
+
+2️⃣ Navigate to the Project Directory
+
+cd Friday-AiInterviewer
+
+3️⃣ Install Dependencies
+
+npm install
+
+4️⃣ Run the Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be running at http://localhost:3000. Open this URL in your browser to access the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js: A React framework for building server-side rendered and static web applications.
 
-## Learn More
+TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Firebase: A platform developed by Google for creating mobile and web applications, used here for backend services.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🤝 Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you'd like to contribute to Friday AI Interviewer, please follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1️⃣ Fork the Repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Click on the 'Fork' button at the top right corner of the repository page.
+
+2️⃣ Clone Your Fork
+
+git clone https://github.com/your-username/Friday-AiInterviewer.git
+
+3️⃣ Create a New Branch
+
+git checkout -b feature/your-feature-name
+
+4️⃣ Make Your Changes
+
+Implement your feature or fix the identified issue.
+
+5️⃣ Commit Your Changes
+
+git commit -m 'Add some feature'
+
+6️⃣ Push to the Branch
+
+git push origin feature/your-feature-name
+
+7️⃣ Create a Pull Request
+
+Navigate to the original repository and click on 'New Pull Request' to submit your changes for review.
+
+📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+For more information and to access the live application, visit the Friday AI Interviewer website. 🚀
